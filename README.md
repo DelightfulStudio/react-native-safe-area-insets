@@ -2,7 +2,9 @@
 [![npm version](http://img.shields.io/npm/v/@delightfulstudio/react-native-safe-area-insets.svg?style=flat-square)](https://npmjs.org/package/@delightfulstudio/react-native-safe-area-insets "View this project on npm")
 [![npm version](http://img.shields.io/npm/dw/@delightfulstudio/react-native-safe-area-insets.svg?style=flat-square)](https://npmjs.org/package/@delightfulstudio/react-native-safe-area-insets "View this project on npm")
 
-A simple react native module that allows to query [safeAreaInsets](https://developer.apple.com/documentation/uikit/uiview/2891103-safeareainsets) of a current root view
+A simple react native module that allows to query [safeAreaInsets](https://developer.apple.com/documentation/uikit/uiview/2891103-safeareainsets) of a current root view. 
+
+Use this module if you need to know the actual numerical values of the insets. Use [SafeAreaView](https://facebook.github.io/react-native/docs/safeareaview) if you just want to render content within the safe area boundaries of a device.
 
 # Installation
 
