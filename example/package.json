@@ -1,0 +1,14 @@
+{
+    "name": "react-native-safe-area-insets-example",
+    "description": "React Native Safe Area Insets Example",
+    "author": "Delightful Studio",
+    "license": "MIT",
+    "scripts": {
+        "start": "react-native start",
+        "run-ios": "react-native run-ios",
+        "run-android": "react-native run-android"
+    },
+    "devDependencies": {
+        "react-native": "link:../node_modules/react-native"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "@delightfulstudio/react-native-safe-area-insets",
+    "version": "0.0.1",
+    "description": "React Native Safe Area Insets",
+    "author": "Delightful Studio",
+    "license": "MIT",
+    "main": "lib/",
+    "scripts": {
+        "test": "true",
+        "build": "true",
+        "release-notes": "conventional-github-releaser -p eslint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DelightfulStudio/react-native-safe-area-insets.git"
+    },
+    "dependencies": {},
+    "peerDependencies": {
+        "react": ">=16.4.0",
+        "react-native": ">=0.55"
+    },
+    "devDependencies": {
+        "@textpress/eslint-config-textpress": "^0.4.0",
+        "babel-core": "^6.26.3",
+        "babel-jest": "^23.0.1",
+        "babel-preset-react-native": "^4.0.0",
+        "conventional-github-releaser": "^3.1.2",
+        "eslint": "^4.19.1",
+        "jest": "^23.1.0",
+        "react": "^16.4.1",
+        "react-native": "^0.55.4",
+        "react-native-cli": "^2.0.1",
+        "react-test-renderer": "^16.4.1"
+    },
+    "jest": {
+        "preset": "react-native"
+    }
+}
