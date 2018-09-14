@@ -11,7 +11,7 @@ A simple react native module that allows to query [safeAreaInsets](https://devel
 # Manual linking
 1. Open your project in XCode 
 1. Add `./node_modules/@delightfulstudio/react-native-safe-area-insets/ios/RNSafeAreaInsets.xcodeproj` to `Libraries` in your project
-1. Select root of your projects
+1. Select root of your project
 1. Switch to `General` tab
 1. Scroll down to `Linked Frameworks and Libraries` section
 1. Click button `+`
