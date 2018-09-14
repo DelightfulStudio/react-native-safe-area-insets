@@ -19,8 +19,7 @@ A simple react native module that allows to query [safeAreaInsets](https://devel
 
 ## Usage
 
-```
-
+```javascript
 import { currentInsets } from "@delightfulstudio/react-native-safe-area-insets";
 
 import React, { Component } from "react";
@@ -53,6 +52,5 @@ class MyRootComponent extends Component {
         );
     }
 }
-
 ```
 
