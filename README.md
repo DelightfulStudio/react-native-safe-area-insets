@@ -4,11 +4,11 @@
 
 A simple react native module that allows to query [safeAreaInsets](https://developer.apple.com/documentation/uikit/uiview/2891103-safeareainsets) of a current root view
 
-#Installation
+# Installation
 
 `yarn add @delightfulstudio/react-native-safe-area-insets`
 
-#Manual linking
+# Manual linking
 1. Open your project in XCode 
 1. Add `./node_modules/@delightfulstudio/react-native-safe-area-insets/ios/RNSafeAreaInsets.xcodeproj` to `Libraries` in your project
 1. Select root of your projects
