@@ -1,5 +1,6 @@
 .*
 example/
+babel.config.js
 yalc.lock
 yarn.lock
 *.log

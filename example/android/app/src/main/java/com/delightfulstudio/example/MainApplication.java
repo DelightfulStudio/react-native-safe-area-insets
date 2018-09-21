@@ -1,4 +1,4 @@
-package com.example;
+package com.delightfulstudio.example;
 
 import android.app.Application;
 

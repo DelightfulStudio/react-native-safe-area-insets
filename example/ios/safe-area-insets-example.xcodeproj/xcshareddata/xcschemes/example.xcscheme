@@ -30,8 +30,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
                BuildableName = "RNSafeAreaInsetsExample.app"
-               BlueprintName = "RNSafeAreaInsetsExample"
-               ReferencedContainer = "container:RNSafeAreaInsetsExample.xcodeproj">
+               BlueprintName = "safe-area-insets-example"
+               ReferencedContainer = "container:safe-area-insets-example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RNSafeAreaInsetsExampleTests.xctest"
-               BlueprintName = "RNSafeAreaInsetsExampleTests"
-               ReferencedContainer = "container:RNSafeAreaInsetsExample.xcodeproj">
+               BuildableName = "safe-area-insets-exampleTests.xctest"
+               BlueprintName = "safe-area-insets-exampleTests"
+               ReferencedContainer = "container:safe-area-insets-example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RNSafeAreaInsetsExampleTests.xctest"
-               BlueprintName = "RNSafeAreaInsetsExampleTests"
-               ReferencedContainer = "container:RNSafeAreaInsetsExample.xcodeproj">
+               BuildableName = "safe-area-insets-exampleTests.xctest"
+               BlueprintName = "safe-area-insets-exampleTests"
+               ReferencedContainer = "container:safe-area-insets-example.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -72,8 +72,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "RNSafeAreaInsetsExample.app"
-            BlueprintName = "RNSafeAreaInsetsExample"
-            ReferencedContainer = "container:RNSafeAreaInsetsExample.xcodeproj">
+            BlueprintName = "safe-area-insets-example"
+            ReferencedContainer = "container:safe-area-insets-example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -95,8 +95,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "RNSafeAreaInsetsExample.app"
-            BlueprintName = "RNSafeAreaInsetsExample"
-            ReferencedContainer = "container:RNSafeAreaInsetsExample.xcodeproj">
+            BlueprintName = "safe-area-insets-example"
+            ReferencedContainer = "container:safe-area-insets-example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -114,8 +114,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "RNSafeAreaInsetsExample.app"
-            BlueprintName = "RNSafeAreaInsetsExample"
-            ReferencedContainer = "container:RNSafeAreaInsetsExample.xcodeproj">
+            BlueprintName = "safe-area-insets-example"
+            ReferencedContainer = "container:safe-area-insets-example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
