@@ -20,10 +20,6 @@
     },
     "devDependencies": {
         "@textpress/eslint-config-textpress": "^0.4.0",
-        "conventional-github-releaser": "^3.1.2",
-        "typescript": "^3.3.3333"
-    },
-    "jest": {
-        "preset": "react-native"
+        "conventional-github-releaser": "^3.1.2"
     }
 }
