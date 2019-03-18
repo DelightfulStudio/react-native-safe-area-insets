@@ -15,20 +15,22 @@ RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(currentInsets:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
 {
-    UIViewController *currentController = RCTPresentedViewController();
-    UIView *rootView = currentController != nil ? currentController.view : nil;
-    UIEdgeInsets insets = UIEdgeInsetsZero;
-    if ( rootView != nil )
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UIViewController *currentController = RCTPresentedViewController();
+        UIView *rootView = currentController != nil ? currentController.view : nil;
+        UIEdgeInsets insets = UIEdgeInsetsZero;
+        if ( rootView != nil )
         insets = rootView.safeAreaInsets;
 
-    NSDictionary *result = @{
-      @"left":@(insets.left),
-      @"right":@(insets.right),
-      @"top":@(insets.top),
-      @"bottom":@(insets.bottom)
-      };
-    
-    resolve( result );
+        NSDictionary *result = @{
+                                 @"left":@(insets.left),
+                                 @"right":@(insets.right),
+                                 @"top":@(insets.top),
+                                 @"bottom":@(insets.bottom)
+                                 };
+
+        resolve( result );
+    });
 }
 
 @end
