@@ -20,16 +20,7 @@
     },
     "devDependencies": {
         "@textpress/eslint-config-textpress": "^0.4.0",
-        "babel-core": "^7.0.0-bridge.0",
-        "babel-jest": "^23.6.0",
-        "babel-preset-react-native": "^4.0.1",
         "conventional-github-releaser": "^3.1.2",
-        "eslint": "^5.6.0",
-        "jest": "^23.6.0",
-        "metro-react-native-babel-preset": "0.45.5",
-        "react": "16.5.0",
-        "react-native": "0.57.0",
-        "react-test-renderer": "16.5.0",
         "typescript": "^3.3.3333"
     },
     "jest": {
