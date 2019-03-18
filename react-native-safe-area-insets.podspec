@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Delightful Studio" => "hello@delightful.studio" }
 
-  s.ios.deployment_target = '7.0'
+  s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/DelightfulStudio/react-native-safe-area-insets.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
